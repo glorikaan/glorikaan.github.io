@@ -1,0 +1,107 @@
+body, nav, ul, li, p {
+    margin: 0;
+    padding: 0; 
+}
+nav {
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+}  
+.content {
+    text-align: center;
+}
+strong {
+    color: #851b53;
+}
+h2 {
+    margin-bottom: 5px;
+}
+h1 {
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+    font-family: 'Futura-MediumItalic', Verdana, sans-serif;
+    text-shadow: 1px 1px 1px #851b53;
+
+}
+p {
+    font-family: 'Futura', Verdana, sans-serif;
+    text-shadow: 4px 4px 5px #ffeded;
+    line-height: 1.6;
+}
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+#item-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* NAVIGATION BAR */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+  background: #ab6a6a;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #ffeded;
+  color: #851b53;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+
+/* PIC ON RIGHT TEXT LEFT*/
+.container {
+    display: flex;
+    align-items: center;
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+}
+.text {
+    flex: 1;
+}
+.image {
+    margin-left: 0px;
+}
