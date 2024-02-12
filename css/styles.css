@@ -91,7 +91,21 @@ main {
   }
 }
 
-/* Sidebar */
+/* PIC ON RIGHT TEXT LEFT*/
+.container {
+    display: flex;
+    align-items: center;
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+}
+.text {
+    flex: 1;
+}
+.image {
+    margin-left: 0px;
+}
+
+/* SIDEBAR */
 .sidebar {
   position: fixed;
   top: 50px;
@@ -117,18 +131,4 @@ main {
 .content {
   margin-right: 100px;
   padding-top: 50px;
-}
-
-/* PIC ON RIGHT TEXT LEFT*/
-.container {
-    display: flex;
-    align-items: center;
-    /*flex-wrap: wrap;
-    justify-content: center;*/
-}
-.text {
-    flex: 1;
-}
-.image {
-    margin-left: 0px;
 }
