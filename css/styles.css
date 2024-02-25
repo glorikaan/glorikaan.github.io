@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: lighter;
     font-family: 'Futura-MediumItalic', Verdana, sans-serif;
     text-shadow: 1px 1px 1px #851b53;
-
 }
 p {
     font-family: 'Futura', Verdana, sans-serif;
@@ -129,4 +128,16 @@ main {
 .content {
   margin-right: 50px;
   padding-top: 40px; 
+}
+
+/*  A5  */
+fieldset {
+  text-align: center;
+  font-family: 'Futura', Verdana, sans-serif;
+  margin-bottom: 1.5em;
+  border: 0.2em solid #4e7191;
+}
+button {
+  color: #4e7191;
+
 }
